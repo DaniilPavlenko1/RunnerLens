@@ -1,0 +1,215 @@
+- !<ObjectPrefab/01e1bc0a-e55a-4737-9e68-0e44fd736b6b>
+  PackagePath: ""
+  objects:
+    - !<own> 42703e40-e018-4736-a754-5026271d4c82
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/3ae2626e-703e-449c-a852-0c17e88937ee>
+  PrefabRemaps:
+    []
+  Name: "ShowSwipeMessage [EXAMPLE]"
+  Enabled: true
+  ScriptAsset: !<reference> b4706970-7b01-42d6-bd88-832d8061110c
+  ScriptInputsDefault:
+    showTextTime: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      showTextTime: !<float> 3.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/42703e40-e018-4736-a754-5026271d4c82>
+  PrefabRemaps:
+    - 3ae2626e-703e-449c-a852-0c17e88937ee: 3ae2626e-703e-449c-57ad-f3e81776c811
+    - 42703e40-e018-4736-a754-5026271d4c82: 42703e40-e018-4736-58ab-afd9d8e2b37d
+    - 7982df2d-6715-4f1b-b8f6-0135cb14ed8f: 7982df2d-6715-4f1b-4709-feca34eb1270
+    - be552dcb-17e3-4af6-bda8-d5def5e464b7: be552dcb-17e3-4af6-4257-2a210a1b9b48
+    - be9e55f9-b125-4b75-ab40-c63e64e16eca: be9e55f9-b125-4b75-54bf-39c19b1e9135
+    - d1d6465c-a511-4755-9978-44047062fe45: d1d6465c-a511-4755-6687-bbfb8f9d01ba
+  Name: SwipeDetection__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> be552dcb-17e3-4af6-bda8-d5def5e464b7
+    - !<own> d1d6465c-a511-4755-9978-44047062fe45
+  Components:
+    []
+- !<Text/7982df2d-6715-4f1b-b8f6-0135cb14ed8f>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: Text
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -3.487491
+    bottom: -8.308959
+    right: 3.505204
+    top: 6.980026
+  OverflowVertical: Overflow
+  OverflowHorizontal: Wrap
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.640742, y: 1.000000, z: 0.706828, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<SceneObject/be552dcb-17e3-4af6-bda8-d5def5e464b7>
+  PrefabRemaps:
+    []
+  Name: SwipeDetectionScript
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 30.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> be9e55f9-b125-4b75-ab40-c63e64e16eca
+- !<ScriptComponent/be9e55f9-b125-4b75-ab40-c63e64e16eca>
+  PrefabRemaps:
+    []
+  Name: SwipeDetection
+  Enabled: true
+  ScriptAsset: !<reference> 3784c95e-c2d9-467a-838e-0bd1fccad5e6
+  ScriptInputsDefault:
+    showDebugMessage: true
+    left: true
+    right: true
+    up: true
+    down: true
+    leftAndUp: true
+    leftAndDown: true
+    rightAndUp: true
+    rightAndDown: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      swipeMinDistance: 0.050000
+      cardinalSwipes: true
+      diagonalSwipes: true
+      showDebugMessage: false
+      left: !<reference.ScriptComponent[]>
+        []
+      right: !<reference.ScriptComponent[]>
+        []
+      up: !<reference.ScriptComponent[]>
+        []
+      down: !<reference.ScriptComponent[]>
+        []
+      leftAndUp: !<reference.ScriptComponent[]>
+        []
+      leftAndDown: !<reference.ScriptComponent[]>
+        []
+      rightAndUp: !<reference.ScriptComponent[]>
+        []
+      rightAndDown: !<reference.ScriptComponent[]>
+        []
+      scriptWithApi: !<reference.ScriptComponent> 3ae2626e-703e-449c-a852-0c17e88937ee
+      leftFuncNames: !<string[]>
+        - leftSwipe
+      rightFuncNames: !<string[]>
+        - rightSwipe
+      upFuncNames: !<string[]>
+        - upSwipe
+      downFuncNames: !<string[]>
+        - downSwipe
+      leftAndUpFuncNames: !<string[]>
+        - leftAndUpSwipe
+      leftAndDownFuncNames: !<string[]>
+        - leftAndDownSwipe
+      rightAndUpFuncNames: !<string[]>
+        - rightAndUpSwipe
+      rightAndDownFuncNames: !<string[]>
+        - rightAndDownSwipe
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/d1d6465c-a511-4755-9978-44047062fe45>
+  PrefabRemaps:
+    []
+  Name: "Text [EXAMPLE]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 30.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7982df2d-6715-4f1b-b8f6-0135cb14ed8f
+    - !<own> 3ae2626e-703e-449c-a852-0c17e88937ee

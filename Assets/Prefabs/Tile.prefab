@@ -1,0 +1,77 @@
+- !<ObjectPrefab/d91ae5e3-5bd6-46f3-a8fd-4a76d1740601>
+  PackagePath: ""
+  objects:
+    - !<own> 89c88b25-8a0f-4017-a18d-9df82330f6b0
+  LazyLoading: false
+  RetainAssets: true
+- !<ColliderComponent/1c66b275-40ce-4dd3-9402-5cf5eea11a89>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/86233061-def9-4f86-8a98-58d0e0985898>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7f5c32bb-740b-44dc-ae2c-947bcb3fe11b
+  Mesh: !<reference> 72f73d62-d567-47f5-904d-133cd1776fb6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/89c88b25-8a0f-4017-a18d-9df82330f6b0>
+  PrefabRemaps:
+    - 1c66b275-40ce-4dd3-9402-5cf5eea11a89: 3506510a-733e-40ff-a4a8-0be7f0204af4
+    - 86233061-def9-4f86-8a98-58d0e0985898: 86233061-def9-4f86-7567-a72f1f67a767
+    - 89c88b25-8a0f-4017-a18d-9df82330f6b0: 89c88b25-8a0f-4017-5e72-6207dccf094f
+    - 90885c90-0b94-477f-bfa8-a6593ff332fd: cfb4a883-7446-4a31-b03b-cbdd2bf4d67d
+  Name: Tile
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 150.000000, y: 1.000000, z: 300.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 90885c90-0b94-477f-bfa8-a6593ff332fd
+  Components:
+    - !<own> 86233061-def9-4f86-8a98-58d0e0985898
+- !<SceneObject/90885c90-0b94-477f-bfa8-a6593ff332fd>
+  PrefabRemaps:
+    []
+  Name: Collider
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1c66b275-40ce-4dd3-9402-5cf5eea11a89

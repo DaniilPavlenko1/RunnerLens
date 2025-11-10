@@ -1,0 +1,77 @@
+# -------------------------------
+# Lens Studio Project .gitignore
+# -------------------------------
+
+# 🔹 Core project files to KEEP
+# Keep project files:
+!*.lsproj
+!*.json
+!*.js
+!*.txt
+!*.glsl
+!*.shader
+!*.hlsl
+!*.png
+!*.jpg
+!*.jpeg
+!*.tga
+!*.fbx
+!*.obj
+!*.wav
+!*.mp3
+!*.ttf
+!*.otf
+!*.mat
+!*.lens
+!*.prefab
+
+# 🔹 Lens Studio temporary/cache folders
+/Lens Studio Cache/
+/Cache/
+/Temp/
+/Logs/
+/Output/
+/Build/
+/PreviewCache/
+/PreviewData/
+/LiveSessionCache/
+/RecordingCache/
+/DeviceSyncCache/
+/.temporary/
+/__MACOSX/
+
+# 🔹 System / OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🔹 Editor and IDE configs
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# 🔹 Node.js / npm artifacts (if you use JS tooling)
+node_modules/
+package-lock.json
+yarn.lock
+
+# 🔹 Auto-generated metadata
+*.meta
+*.bak
+*.tmp
+*.log
+*.orig
+
+# 🔹 Unity or other engine leftovers (just in case)
+Library/
+Obj/
+Temp/
+Build/
+Logs/
+UserSettings/
+
+# -------------------------------
+# End of file
+# -------------------------------

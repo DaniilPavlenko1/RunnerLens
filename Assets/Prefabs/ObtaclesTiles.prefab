@@ -1,0 +1,118 @@
+- !<ObjectPrefab/7f964188-9ff4-45d2-93b4-9b00de5c8851>
+  PackagePath: ""
+  objects:
+    - !<own> c640ee72-ecc9-4291-8744-859ef97339f7
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/3e12ac6e-f4eb-48b3-81c7-9fa6a2d6bfaa>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7f5c32bb-740b-44dc-ae2c-947bcb3fe11b
+  Mesh: !<reference> 72f73d62-d567-47f5-904d-133cd1776fb6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/49198d78-885e-455d-9ab9-04f986602246>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 1.000000, y: 1.000000, z: 1.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/864b6872-d44e-47fa-928f-aabb674ab102>
+  PrefabRemaps:
+    []
+  Name: Collider
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 49198d78-885e-455d-9ab9-04f986602246
+- !<ScriptComponent/a00391ac-8411-4b78-9b4a-ad88a98a65aa>
+  PrefabRemaps:
+    []
+  Name: ObstacleInstantiator
+  Enabled: true
+  ScriptAsset: !<reference> 2eeba377-6885-4058-a2dd-742d1caae8a8
+  ScriptInputsDefault:
+    collectibleChance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      obstacles: !<reference.ObjectPrefab[]>
+        - !<reference> d28f72ed-b6b9-4b8a-aadd-97ea917ddac9
+        - !<reference> d28f72ed-b6b9-4b8a-aadd-97ea917ddac9
+        - !<reference> d28f72ed-b6b9-4b8a-aadd-97ea917ddac9
+      collectibles: !<reference.ObjectPrefab[]>
+        - !<reference> 925ba660-8ddc-4025-b478-e24e9e01b071
+        - !<reference> 925ba660-8ddc-4025-b478-e24e9e01b071
+        - !<reference> 925ba660-8ddc-4025-b478-e24e9e01b071
+      collectibleChance: 0.500000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/b0ace604-e308-4a71-9fd3-275b48d73ef6>
+  PrefabRemaps:
+    []
+  Name: Tile
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 150.000000, y: 1.000000, z: 300.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 864b6872-d44e-47fa-928f-aabb674ab102
+  Components:
+    - !<own> 3e12ac6e-f4eb-48b3-81c7-9fa6a2d6bfaa
+- !<SceneObject/c640ee72-ecc9-4291-8744-859ef97339f7>
+  PrefabRemaps:
+    - 3e12ac6e-f4eb-48b3-81c7-9fa6a2d6bfaa: 3e12ac6e-f4eb-48b3-7e38-60595d294055
+    - 49198d78-885e-455d-9ab9-04f986602246: 49198d78-885e-455d-6546-fb06799fddb9
+    - 864b6872-d44e-47fa-928f-aabb674ab102: 864b6872-d44e-47fa-6d70-554498b54efd
+    - a00391ac-8411-4b78-9b4a-ad88a98a65aa: a00391ac-8411-4b78-64b5-527756759a55
+    - b0ace604-e308-4a71-9fd3-275b48d73ef6: b0ace604-e308-4a71-602c-d8a4b728c109
+    - c640ee72-ecc9-4291-8744-859ef97339f7: c640ee72-ecc9-4291-78bb-7a61068cc608
+  Name: ObtaclesTiles
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b0ace604-e308-4a71-9fd3-275b48d73ef6
+  Components:
+    - !<own> a00391ac-8411-4b78-9b4a-ad88a98a65aa

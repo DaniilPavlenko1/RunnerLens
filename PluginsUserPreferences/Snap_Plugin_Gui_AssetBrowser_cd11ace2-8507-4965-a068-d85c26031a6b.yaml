@@ -1,0 +1,73 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 67
+    values:
+      - 10176_Coconut_Whole_v01-it3.obj
+      - 10176_Coconut_Whole_v01-it3.obj/.hidden
+      - 10176_Coconut_Whole_v01-it3.obj/.hidden/coconut
+      - 10176_Coconut_Whole_v01-it3.obj/.hidden/white
+      - 10176_Coconut_Whole_v01-it3.obj/10176_Coconut_Whole_v01-it3
+      - 10176_Coconut_Whole_v01-it3.obj/Materials
+      - 10176_Coconut_Whole_v01-it3.obj/Materials/coconut
+      - 10176_Coconut_Whole_v01-it3.obj/Meshes/10175_Coconut_v01
+      - 10176_Coconut_Whole_v01-it3.obj/Textures/Coconut_01
+      - Animation State Manager.lsc
+      - Animations - Mixamo
+      - Animations - Mixamo/Falling Down.fbx
+      - Animations - Mixamo/Falling Down.fbx/Falling Down
+      - Animations - Mixamo/Falling Down.fbx/Layer0
+      - Animations - Mixamo/Fast Run.fbx
+      - Animations - Mixamo/Fast Run.fbx/Animations
+      - Animations - Mixamo/Fast Run.fbx/Animations/Layer0
+      - Animations - Mixamo/Fast Run.fbx/Fast Run
+      - Animations - Mixamo/Idle.fbx/Animations/Layer0
+      - Animations - Mixamo/Idle.fbx/Idle
+      - Animations - Mixamo/Jump.fbx
+      - Animations - Mixamo/Jump.fbx/Animations
+      - Animations - Mixamo/Jump.fbx/Animations/Layer0
+      - Animations - Mixamo/Jump.fbx/Jump
+      - Animations - Mixamo/Left Strafe.fbx
+      - Animations - Mixamo/Left Strafe.fbx/Animations
+      - Animations - Mixamo/Left Strafe.fbx/Animations/Layer0
+      - Animations - Mixamo/Left Strafe.fbx/Left Strafe
+      - Animations - Mixamo/Right Strafe.fbx
+      - Animations - Mixamo/Right Strafe.fbx/Animations
+      - Animations - Mixamo/Right Strafe.fbx/Animations/Layer0
+      - Animations - Mixamo/Right Strafe.fbx/Right Strafe
+      - Bitmoji 3D.lsc
+      - Bitmoji Joint Attachment.lsc
+      - Echopark.hdr
+      - Materials/Green.mat
+      - Materials/PBR.mat
+      - Materials/Uber PBR.mat
+      - Meshes/Plane.mesh
+      - PBR.mat
+      - Prefabs/10176_Coconut_Whole_v01-it3 2.prefab
+      - Prefabs/10176_Coconut_Whole_v01-it3.prefab
+      - Prefabs/ObtaclesTiles.prefab
+      - Prefabs/Tile.prefab
+      - Scripts/CameraFollow.js
+      - Scripts/Collectible.js
+      - Scripts/ObstacleInstantiator.js
+      - Scripts/PlayerController.js
+      - Scripts/RestartButton.js
+      - Scripts/StartButton.js
+      - Scripts/tileManager.js
+      - Shaders
+      - Shaders/pbr.ss_graph
+      - Shaders/uber_pbr.ss_graph
+      - Swipe Detection.lspkg
+      - Swipe Detection.lspkg/Scripts
+      - "Swipe Detection.lspkg/Scripts/ShowSwipeMessage [EXAMPLE].js"
+      - Swipe Detection.lspkg/Scripts/SwipeDetection.js
+      - Swipe Detection.lspkg/Scripts/VectorUtilitiesModule.js
+      - Swipe Detection.lspkg/SwipeDetection__PLACE_IN_SCENE.prefab
+      - Swipe Detection.lspkg/package.native
+      - Textures
+      - Textures/Base.png
+      - Textures/Coconut_01.jpg
+      - Textures/MaterialParams.png
+      - Textures/Normal.png
+      - Textures/Sand Texture.png
+  options: 4

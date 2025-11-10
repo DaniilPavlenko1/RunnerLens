@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/dceaccbb-0d68-4dbe-bd52-bf894ca2ceae>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: "Swipe Detection Detects swipes on screen and calls custom API function or plugged in Behavior Scripts Add behaviors to swipes in the cardinal directions(up, down, left, right) as well as diagonal directions or both,"
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 328d58fb-bbd9-4236-866d-afaaa6ac89c8
+  ComponentUid: cd4adeac-bb2d-448b-a12d-875d22b3b467
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
